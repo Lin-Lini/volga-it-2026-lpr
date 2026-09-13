@@ -1,0 +1,70 @@
+Dataset validation report: /Users/lin-lin/Desktop/Volga_IT_2026_poluf/dataset
+
+Images:   real=2682 synthetic=5135 total=7817
+Plates:
+  type         real    synth   uniq(real)
+  type1        2209     1926         1768
+  type1a         86     2802           62
+  type1b        343     2605          303
+  other         551     1251          476
+  recommended minimum type1a: 150 images / 50 unique -> have 86 / 62  [BELOW]
+  recommended minimum type1b: 300 images / 100 unique -> have 328 / 303  [OK ]
+  recommended minimum other: 50 images / 0 unique -> have 497 / 476  [OK ]
+  synthetic images: 5135 (recommended >= 5000) [OK]
+Conditions: day=9879, angle=4882, dirt=4882, glare=3647, night=1894, motion_blur=1422, rain=1246, snow=1050
+Licenses:   CC BY 4.0=9299, CC0=1620, CC BY-SA 4.0=543, CC BY-SA 3.0=112, CC BY 2.0=89, CC BY 3.0=67, CC BY-SA 2.0=29, Public domain=12, CC BY 3.0 de=1, CC BY-SA 2.5=1
+Sources:    generator=8584, https=3189
+
+WARNING: images/synthetic/synth_000030.jpg: plate_num fully unreadable (#######)
+WARNING: images/synthetic/synth_000054.jpg: plate_num fully unreadable (#######)
+WARNING: images/synthetic/synth_000090.jpg: plate_num fully unreadable (########)
+WARNING: images/synthetic/synth_000142.jpg: plate_num fully unreadable (#######)
+WARNING: images/synthetic/synth_000152.jpg: plate_num fully unreadable (########)
+WARNING: images/synthetic/synth_000235.jpg: plate_num fully unreadable (########)
+WARNING: images/synthetic/synth_000331.jpg: plate_num fully unreadable (########)
+WARNING: images/synthetic/synth_000504.jpg: plate_num fully unreadable (#######)
+WARNING: images/synthetic/synth_000645.jpg: plate_num fully unreadable (#########)
+WARNING: images/synthetic/synth_000810.jpg: plate_num fully unreadable (#########)
+WARNING: images/synthetic/synth_000875.jpg: plate_num fully unreadable (######)
+WARNING: images/synthetic/synth_000945.jpg: plate_num fully unreadable (########)
+WARNING: images/synthetic/synth_000954.jpg: plate_num fully unreadable (########)
+WARNING: images/synthetic/synth_001048.jpg: plate_num fully unreadable (#########)
+WARNING: images/synthetic/synth_001111.jpg: plate_num fully unreadable (#######)
+WARNING: images/synthetic/synth_001168.jpg: plate_num fully unreadable (########)
+WARNING: images/synthetic/synth_001181.jpg: plate_num fully unreadable (########)
+WARNING: images/synthetic/synth_001187.jpg: plate_num fully unreadable (#########)
+WARNING: images/synthetic/synth_001253.jpg: plate_num fully unreadable (#######)
+WARNING: images/synthetic/synth_001283.jpg: plate_num fully unreadable (########)
+WARNING: images/synthetic/synth_001326.jpg: plate_num fully unreadable (########)
+WARNING: images/synthetic/synth_001347.jpg: plate_num fully unreadable (#########)
+WARNING: images/synthetic/synth_001417.jpg: plate_num fully unreadable (#######)
+WARNING: images/synthetic/synth_001561.jpg: plate_num fully unreadable (######)
+WARNING: images/synthetic/synth_001614.jpg: plate_num fully unreadable (########)
+WARNING: images/synthetic/synth_001649.jpg: plate_num fully unreadable (########)
+WARNING: images/synthetic/synth_001695.jpg: plate_num fully unreadable (#########)
+WARNING: images/synthetic/synth_001802.jpg: plate_num fully unreadable (#######)
+WARNING: images/synthetic/synth_001811.jpg: plate_num fully unreadable (########)
+WARNING: images/synthetic/synth_001813.jpg: plate_num fully unreadable (########)
+WARNING: images/synthetic/synth_001820.jpg: plate_num fully unreadable (########)
+WARNING: images/synthetic/synth_001922.jpg: plate_num fully unreadable (#######)
+WARNING: images/synthetic/synth_001959.jpg: plate_num fully unreadable (########)
+WARNING: images/synthetic/synth_001968.jpg: plate_num fully unreadable (#######)
+WARNING: images/synthetic/synth_002021.jpg: plate_num fully unreadable (#########)
+WARNING: images/synthetic/synth_002022.jpg: plate_num fully unreadable (########)
+WARNING: images/synthetic/synth_002106.jpg: plate_num fully unreadable (########)
+WARNING: images/synthetic/synth_002192.jpg: plate_num fully unreadable (########)
+WARNING: images/synthetic/synth_002215.jpg: plate_num fully unreadable (#########)
+WARNING: images/synthetic/synth_002259.jpg: plate_num fully unreadable (########)
+WARNING: images/synthetic/synth_002264.jpg: plate_num fully unreadable (########)
+WARNING: images/synthetic/synth_002287.jpg: plate_num fully unreadable (########)
+WARNING: images/synthetic/synth_002390.jpg: plate_num fully unreadable (########)
+WARNING: images/synthetic/synth_002494.jpg: plate_num fully unreadable (#######)
+WARNING: images/synthetic/synth_002508.jpg: plate_num fully unreadable (########)
+WARNING: images/synthetic/synth_002923.jpg: plate_num fully unreadable (########)
+WARNING: images/synthetic/synth_002949.jpg: plate_num fully unreadable (#########)
+WARNING: images/synthetic/synth_003101.jpg: plate_num fully unreadable (########)
+WARNING: images/synthetic/synth_003190.jpg: plate_num fully unreadable (########)
+WARNING: images/synthetic/synth_003247.jpg: plate_num fully unreadable (########)
+... 19 more warnings
+
+RESULT: PASS  (0 errors, 69 warnings)

@@ -1,0 +1,23 @@
+# работа и промежуточные артефакты
+work/
+raw/
+logs/
+runs/
+release/
+.venv/
+third_party/
+
+# датасет: изображения выкладываются в GitHub Releases (см. dataset/README.md),
+# в репозитории остаются только метаданные, разметка и генератор
+dataset/images/
+dataset/labels/
+
+# служебное
+__pycache__/
+*.pyc
+.DS_Store
+*.zip
+Полуфинал*.pdf
+
+# автозагрузка Ultralytics в корень
+/yolo11n*.pt

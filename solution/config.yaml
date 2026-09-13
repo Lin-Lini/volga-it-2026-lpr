@@ -1,0 +1,14 @@
+# LPR configuration. Command-line arguments override these values.
+# input: /path/to/images        # folder with images (or --input / env LPR_INPUT)
+# output: result.csv            # (or --output / env LPR_OUTPUT)
+device: auto                    # auto | cuda:0 | cpu | mps
+imgsz: 960                      # detector input size (960 keeps <100 ms on GTX 1050 Ti and finds plates down to ~30 px; 640 is ~2x faster)
+det-conf: 0.2                   # detector confidence threshold
+unk-thr: 0.45                   # per-character confidence below which '#' is written
+min-conf: 0.2                   # plates with lower overall confidence are not reported
+unk-drop-frac: 0.34             # a reading with >= 34% of positions unreadable (#) ...
+unk-drop-conf: 0.5              # ... is dropped unless its confidence is >= 0.5
+vehicle_gate: true              # check with a COCO detector that the plate sits on a vehicle
+drop_off_vehicle: false         # true: omit plates not on a vehicle; false: keep them with reduced confidence
+emit_other: true                # report non-target plates with plate_type=other (false: omit them)
+half: false                     # FP16 on CUDA
